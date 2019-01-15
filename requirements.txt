@@ -1,0 +1,5 @@
+mkdocs>=1.0
+mkdocs-material>=3.0
+Pygments>=2.2
+pymdown-extensions>=5.0
+htmlmin

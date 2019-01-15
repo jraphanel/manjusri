@@ -1,0 +1,79 @@
+# Project Information
+site_name: Thus Spake Manjusri
+site_description: notes on CyberInfrastructure, High Performance Computing and Machine Learning
+site_author: Shawfeng Dong
+# site_url:
+
+# Repository
+repo_name: GitHub/shawfdong/manjusri
+repo_url: https://github.com/shawfdong/manjusri
+edit_uri: blob/master/docs/
+
+# Copyright
+copyright: 'Copyright &copy; 2018 - 2019 Shawfeng Dong'
+
+# Configuration
+theme:
+  name: material
+  custom_dir: theme
+  feature:
+    tabs: false
+  palette:
+    primary: green
+    accent: blue
+  favicon: images/favicon.ico
+  logo: images/logo.png
+
+# Customization
+extra:
+  social:
+    - type: globe
+      link: http://web.stanford.edu/~shawfeng/
+    - type: github
+      link: https://github.com/shawfdong
+    - type: linkedin
+      link: https://linkedin.com/in/frank-dong-0536b919
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+    - Home: index.md
+    - HPC:
+        - Bubble: hpc/bubble.md
+        - MPI: hpc/mpi.md
+    - AI:
+        - "Stanford ML Courses": ai/stanford_ml_courses.md
+    - Security:
+        - "Kerberos Keytab": security/kerberos_keytab.md
+    - Python:
+        - Spack: python/spack.md
