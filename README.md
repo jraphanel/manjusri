@@ -1,9 +1,3 @@
----
-title: Thus Spake Manjusri
-date: 2018-12-21
-hero: oṃ arapacana dhīḥ
----
-
 # Thus Spake Manjusri
 
 This site is a collection of my personal notes on:
