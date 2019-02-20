@@ -68,12 +68,23 @@ markdown_extensions:
 # Page tree
 nav:
     - Home: index.md
+    - Accent: accent.md
+    - Chef: Chef.md
     - HPC:
         - Bubble: hpc/bubble.md
         - MPI: hpc/mpi.md
+        - "Building Open MPI": hpc/openmpi.md
+        - Modulefiles: hpc/modulefiles.md
+        - "GPU Nodes": hpc/gpu.md
+        - LSF: hpc/lsf.md
+    - Storage:
+        - "AuriStor File System": storage/auristor.md
     - AI:
         - "Stanford ML Courses": ai/stanford_ml_courses.md
-    - Security:
-        - "Kerberos Keytab": security/kerberos_keytab.md
+    - Kerberos:
+        - Keytab: kerberos/keytab.md
     - Python:
         - Spack: python/spack.md
+    - C++:
+        - Books: c++/books.md
+        - C++11: c++/c++11.md
